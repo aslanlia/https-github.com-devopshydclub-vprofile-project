@@ -1,7 +1,7 @@
 pipeline {
   agent any
    tools {
-    maven 'maven363'
+    maven 'M3'
   }
   stages {
     stage ('Fetch code') {
